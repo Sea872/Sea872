@@ -135,8 +135,8 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sea872&theme=tokyonight" alt="Sea872 GitHub stats" />
-  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sea872&theme=tokyonight" alt="Top languages" />
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sea872&theme=tokyonight&cache_bust=v1" alt="Sea872 GitHub stats" />
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sea872&theme=tokyonight&cache_bust=v1" alt="Top languages" />
 </p>
 
 <p align="center">
