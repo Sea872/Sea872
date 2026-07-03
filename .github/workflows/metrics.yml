@@ -1,0 +1,46 @@
+name: Metrics
+
+on:
+  # Rebuild once a day, on pushes to main, and on-demand from the Actions tab
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+# The built-in token needs write access to commit the generated image back
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          # Your READ-ONLY PAT (private-repo read access). Stored as a repo
+          # secret — its value never appears in this file or git history.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # The image is committed with the workflow's built-in token, so the
+          # PAT above never needs write permission. (This is also the default.)
+          committer_token: ${{ github.token }}
+
+          user: sea872
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+
+          # Count PRIVATE repositories in the stats
+          repositories_affiliations: owner, collaborator, organization_member
+
+          # Commit calendar — includes private commits
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Languages breakdown incl. private repos (indepth analyzes private code)
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage, bytes-size
+          plugin_languages_limit: 8
