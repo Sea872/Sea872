@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sea872&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
+
+<p align="center">
   I build production-grade web applications end to end - from pixel-perfect frontends
   to resilient backends, payment flows, and the CI/CD &amp; Kubernetes pipelines that ship them.
 </p>
