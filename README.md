@@ -32,7 +32,7 @@
 <table>
   <tr>
     <td valign="middle" width="160" nowrap><b>Languages</b></td>
-    <td nowrap>
+    <td style="display:flex; flex-wrap:wrap; gap:4px;">
       <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-05122A?style=flat&logo=javascript" />
       <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-05122A?style=flat&logo=typescript" />
       <img alt="Python" src="https://img.shields.io/badge/Python-05122A?style=flat&logo=python" />
@@ -45,7 +45,7 @@
   </tr>
   <tr>
     <td valign="middle" width="160" nowrap><b>Frontend</b></td>
-    <td nowrap>
+    <td style="display:flex; flex-wrap:wrap; gap:4px;">
       <img alt="React" src="https://img.shields.io/badge/React-05122A?style=flat&logo=react" />
       <img alt="Next.js" src="https://img.shields.io/badge/Next.js-05122A?style=flat&logo=nextdotjs&logoColor=white" />
       <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-05122A?style=flat&logo=vuedotjs" />
@@ -59,7 +59,7 @@
   </tr>
   <tr>
     <td valign="middle" width="160" nowrap><b>Backend &amp; APIs</b></td>
-    <td nowrap>
+    <td style="display:flex; flex-wrap:wrap; gap:4px;">
       <img alt="Node.js" src="https://img.shields.io/badge/Node.js-05122A?style=flat&logo=nodedotjs" />
       <img alt="Express" src="https://img.shields.io/badge/Express-05122A?style=flat&logo=express&logoColor=white" />
       <img alt="NestJS" src="https://img.shields.io/badge/NestJS-05122A?style=flat&logo=nestjs" />
@@ -72,7 +72,7 @@
   </tr>
   <tr>
     <td valign="middle" width="160" nowrap><b>CMS, E-Commerce &amp; Payments</b></td>
-    <td nowrap>
+    <td style="display:flex; flex-wrap:wrap; gap:4px;">
       <img alt="Shopify" src="https://img.shields.io/badge/Shopify-05122A?style=flat&logo=shopify" />
       <img alt="WordPress" src="https://img.shields.io/badge/WordPress-05122A?style=flat&logo=wordpress&logoColor=21759B" />
       <img alt="WooCommerce" src="https://img.shields.io/badge/WooCommerce-05122A?style=flat&logo=woocommerce" />
@@ -82,7 +82,7 @@
   </tr>
   <tr>
     <td valign="middle" width="160" nowrap><b>Databases &amp; Caching</b></td>
-    <td nowrap>
+    <td style="display:flex; flex-wrap:wrap; gap:4px;">
       <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-05122A?style=flat&logo=postgresql" />
       <img alt="MySQL" src="https://img.shields.io/badge/MySQL-05122A?style=flat&logo=mysql" />
       <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-05122A?style=flat&logo=mongodb" />
@@ -94,7 +94,7 @@
   </tr>
   <tr>
     <td valign="middle" width="160" nowrap><b>DevOps &amp; Cloud</b></td>
-    <td nowrap>
+    <td style="display:flex; flex-wrap:wrap; gap:4px;">
       <img alt="AWS" src="https://img.shields.io/badge/AWS-05122A?style=flat&logo=amazonwebservices&logoColor=white" />
       <img alt="Google Cloud" src="https://img.shields.io/badge/Google%20Cloud-05122A?style=flat&logo=googlecloud" />
       <img alt="Docker" src="https://img.shields.io/badge/Docker-05122A?style=flat&logo=docker" />
@@ -112,7 +112,7 @@
   </tr>
   <tr>
     <td valign="middle" width="160" nowrap><b>Testing &amp; Quality</b></td>
-    <td nowrap>
+    <td style="display:flex; flex-wrap:wrap; gap:4px;">
       <img alt="Jest" src="https://img.shields.io/badge/Jest-05122A?style=flat&logo=jest&logoColor=C21325" />
       <img alt="Cypress" src="https://img.shields.io/badge/Cypress-05122A?style=flat&logo=cypress" />
       <img alt="Playwright" src="https://img.shields.io/badge/Playwright-05122A?style=flat&logo=playwright" />
@@ -122,7 +122,7 @@
   </tr>
   <tr>
     <td valign="middle" width="160" nowrap><b>Workflow &amp; Collaboration</b></td>
-    <td nowrap>
+    <td style="display:flex; flex-wrap:wrap; gap:4px;">
       <img alt="Git" src="https://img.shields.io/badge/Git-05122A?style=flat&logo=git" />
       <img alt="GitHub" src="https://img.shields.io/badge/GitHub-05122A?style=flat&logo=github&logoColor=white" />
       <img alt="Jira" src="https://img.shields.io/badge/Jira-05122A?style=flat&logo=jira&logoColor=0052CC" />
