@@ -148,7 +148,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=sea872&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=sea872&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="GitHub streak" />
 </p>
 
 ---
